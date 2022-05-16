@@ -16,5 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/greeting', 'GreetingController@index');
-// add
 Route::post('/greeting/welcome', 'GreetingController@welcome');
+Route::get('/greeting/hello', 'GreetingController@hello');
+
+Route::get('/profile', 'ProfileController@index');
+Route::post('/profile/confirm', 'ProfileController@confirm');
