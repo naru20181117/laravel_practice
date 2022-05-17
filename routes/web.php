@@ -21,3 +21,5 @@ Route::get('/greeting/hello', 'GreetingController@hello');
 
 Route::get('/profile', 'ProfileController@index');
 Route::post('/profile/confirm', 'ProfileController@confirm');
+
+Route::get('/lot', 'LotController@index');
