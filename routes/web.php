@@ -27,3 +27,5 @@ Route::get('/lot', 'LotController@index');
 Route::get('/employees', 'EmployeesController@index');
 Route::get('/employees/create', 'EmployeesController@create');
 Route::post('/employees/store', 'EmployeesController@store');
+
+Route::get('/employees/search', 'EmployeesController@search');

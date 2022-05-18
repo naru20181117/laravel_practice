@@ -6,6 +6,10 @@
   </head>
   <body>
     <h1>Employees</h1>
+    <form action="/requestapp/public/employees/search" method="get">
+      <input type="text" name="employee_name_like">
+      <input type="submit" value="検索">
+    </form>
     <table>
       <tr>
         <th>ID</th>
