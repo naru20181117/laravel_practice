@@ -23,3 +23,7 @@ Route::get('/profile', 'ProfileController@index');
 Route::post('/profile/confirm', 'ProfileController@confirm');
 
 Route::get('/lot', 'LotController@index');
+
+Route::get('/employees', 'EmployeesController@index');
+Route::get('/employees/create', 'EmployeesController@create');
+Route::post('/employees/store', 'EmployeesController@store');
